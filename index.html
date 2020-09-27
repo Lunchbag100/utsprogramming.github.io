@@ -13,18 +13,27 @@
         scroll-behavior: smooth;
         overflow-x: hidden;
       }
+      .header-full {
+        background-image: url("code-background.jpg");
+        background-attachment: fixed;
+        padding-bottom: 200px;
+        background-position: -1000px -400px;
+        background-repeat: none;
+      }
       .header {
         text-align: center;
-        padding-top: 50px;
+        padding-top: 150px;
         font-family: montserrat;
-        font-size: 50px;
+        font-size: 75px;
         padding-bottom: 20px;
+        color: white;
       }
       .names {
         font-family: montserrat;
         text-align: center;
         padding-top: 20px;
-        font-size: 20px;
+        font-size: 25px;
+        color: white;
       }
       .head {
         text-align: center;
@@ -35,10 +44,13 @@
       .para {
         text-align: center;
         font-family: montserrat;
-        padding-left: 75px;
-        padding-right: 75px;
+        margin-left: 100px;
+        margin-right: 100px;
         font-size: 20px;
         padding-top: 40px;
+        letter-spacing: 0.5px;
+        word-spacing: 1.5px;
+        line-height: 35px;
       }
       .contact-head {
         text-align: center;
@@ -56,8 +68,10 @@
     </style>
   </head>
   <body>
-    <div class="header">Programming Club</div>
-    <div class="names">Execs: Rohit Koneru and Angad Khattra</div>
+    <div class="header-full">
+      <h1 class="header">Programming Club</h1>
+      <h2 class="names">Execs: Rohit Koneru and Angad Khattra</h2>
+    </div>
     <div class="head">Our Goal</div>
     <div class="para">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
@@ -67,10 +81,21 @@
     </div>
     <div class="head">What Will You Learn?</div>
     <div class="para">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi neque
-      asperiores nulla deserunt incidunt maxime voluptatibus. Beatae
-      perspiciatis eius, dolor error dolorem culpa facilis distinctio, excepturi
-      itaque enim dolorum odio.
+      <strong>1. Python</strong>
+      <br />
+      Python is a programming language well suited for beginners. It is used by
+      proffesionels from all over the globe and has many applications.
+      <br />
+      <strong>2. Web Development</strong>
+      <br />
+      You will learn HTML5 and CSS3 and how to use them to create beautifal
+      websites.
+      <br />
+      <strong>3. Dart and Flutter</strong>
+      <br />
+      Dart is a programming language and flutter is a framework that uses dart.
+      You can use flutter to create beautifal and modern apps for mobile
+      devices.
     </div>
     <div class="contacts">
       <div class="contact-head">Contact</div>
